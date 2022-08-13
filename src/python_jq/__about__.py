@@ -1,0 +1,10 @@
+__title__ = "Python-JQ"
+__description__ = "A jq library for Python that just works everywhere."
+__url__ = "https://github.com/sonnyksimon/python-jq"
+__version_info__ = ("0", "0", "1")
+__version__ = ".".join(__version_info__)
+__author__ = "Sonny Kothapally"
+__author_email__ = "me@sonnyksimon.com"
+__maintainer__ = "Sonny Kothapally"
+__license__ = "MIT"
+__copyright__ = "(c) 2022 by Sonny Kothapally"
