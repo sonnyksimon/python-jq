@@ -58,6 +58,17 @@ print(out)
 # {'foo': 'bar'}
 ```
 
+Or maybe you want to run jq and handle the formatting yourself:
+```python
+from python_jq.run import _execute_command
+
+out = _execute_command('.', b'{"foo":"bar"}')
+
+print(out)
+
+# b'{\r\n  "foo": "bar"\r\n}\r\n'
+```
+
 For complete understanding, please refer to the [source code](https://github.com/sonnyksimon/python-jq).
 
 Thanks!
