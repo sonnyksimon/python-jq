@@ -12,8 +12,8 @@ else:
 
 JQ_INFO = {
     'name': 'jq',
-    'url': 'https://github.com/stedolan/jq/releases/download/',
-    'version': 'jq-1.6'
+    'url': 'https://github.com/jqlang/jq/releases/download/',
+    'version': 'jq-1.7'
 }
 
 JQ_NAME_MAP = {
