@@ -1,3 +1,9 @@
+***
+
+***DEPRECATED** in favor of jq.py's [Windows Support](https://github.com/mwilliamson/jq.py/pull/109).*
+
+***
+
 # Python-JQ
 
 Python-JQ is a jq library for Python that just works everywhere. It opts to download
